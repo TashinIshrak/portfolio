@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    display: flex;
+    background-color: orange;
+    padding: 30px;
+    margin: 0;
+    justify-content: right;
+}
+.main li{
+    list-style-type: none;
+    padding: 2px 50px;
+    margin: 0;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 5px 20px gray;
+}
+.sub{
+    display: none;
+    position: absolute;
+    padding: 0%;
+    margin: 0;
+}
+.sub-main:hover .sub{
+    display: block;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.main li:hover a{
+    color: white;
+    transition: color 0.2s linear;
+}
+.dd{
+    color: orange;
+}
+.header-first{
+    font-size: 50px;
+    font-weight: 700;
+}
+#gg{
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px 40px;
+    color: black;
+    border-radius: 30px;    
+}
+#gg:hover{
+    color: white;
+    background-color: rgb(156, 102, 0);
+    transition: color 0.5s linear, background-color 0.5s linear;
+}
+
+.first{
+    margin: 0 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.first-text{
+    width: 50%;
+}
+.first-image{
+    width: 30%;
+}
+.first-image img{
+    width: 100%;
+    margin-left: 300px;
+}
+.second{
+    display: flex;
+    margin: 0 50px;
+}
+.one{
+    width: 20%;
+    background-color: orange;
+    margin: 0 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px gray;
+}
+.two{
+    width: 20%;
+    background-color: rgb(255, 201, 101);
+    margin: 0 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px gray;
+}
+.one img{
+    width: 100%;
+}
+.two img{
+    width: 100%;
+}
+.one:hover{
+    background-color: violet;
+    transition: background-color 0.3s linear;
+}
+.two:hover{
+    background-color: violet;
+    transition: background-color 0.3s linear;
+}
+.future{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: orange;
+}
+.third{
+    display: flex;
+    margin: 0 50px;
+}
+.third-image{
+    width: 30%;
+}
+.third-text{
+    width: 60%;
+    margin-left: 100px;
+}
+.third-image img{
+    width: 100%;
+}
+p{
+    text-align: justify;
+}
+.fourth{
+    display: flex;
+    margin: 0 50px;
+}
+.fourth-text{
+    width: 60%;
+}
+.fourth-image{
+    width: 30%;
+}
+.fourth-image img{
+    width: 100%;
+    margin-left: 100px;
+}
+.fifth{
+    display: flex;
+    margin: 0 50px;
+}
+.fifth-text{
+    width: 60%;
+    margin-left: 100px;
+}
+.fifth-image{
+    width: 30%;
+}
+.fifth-image img{
+    width: 100%;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;;
+
+}
+.fab{
+    font-size: 50px;
+    padding: 0 20px;
+    color: black;
+}
+.fab:hover{
+    color: rgb(255, 0, 0);
+    transition: color 0.3s linear;
+}
+h2{
+    font-size: 30px;
+}
+.seventh{
+    background-color: rgb(13, 9, 34);
+    display: flex;
+    padding: 30px 0;
+}
+.seventh-one{
+    width: 33%;
+    background-color: orange;
+    margin: 0 50px;
+    padding: 10px 50px;
+}
+.seventh-two{
+    width: 33%;
+    background-color: orange;
+    margin: 0 50px;
+    padding: 10px 50px;
+}
+.seventh-three{
+    width: 33%;
+    background-color: orange;
+    margin: 0 50px;
+    padding: 10px 50px;
+}
+.seventh-one:hover{
+    background-color: violet;
+}
+.seventh-two:hover{
+    background-color: violet;
+}
+.seventh-three:hover{
+    background-color: violet;
+}
+
+.ee{
+    font-size: 40px;
+}
