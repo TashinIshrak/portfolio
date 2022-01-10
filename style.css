@@ -28,6 +28,8 @@ body{
 }
 .sub-main:hover .sub{
     display: block;
+    background-color: orange;
+    padding: 10px;
 }
 .main a{
     text-decoration: none;
